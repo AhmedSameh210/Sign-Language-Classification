@@ -7,19 +7,19 @@ The dataset used in this project is the Sign Language MNIST dataset, which conta
 # Model Architecture
 The model architecture used in this project is a CNN with the following layers:
 
-*Conv2D layer with 32 filters of size 3x3, input shape of (28,28,1), and 'relu' activation function
-*MaxPooling2D layer with a pool size of 2x2
-*Dropout layer with a rate of 0.25
-*Conv2D layer with 64 filters of size 3x3 and 'relu' activation function
-*MaxPooling2D layer with a pool size of 2x2
-*Dropout layer with a rate of 0.25
-*Conv2D layer with 128 filters of size 3x3 and 'relu' activation function
-*MaxPooling2D layer with a pool size of 2x2
-*Dropout layer with a rate of 0.25
-*Flatten layer to convert the 2D feature maps into a 1D vector
-*Dense layer with 512 units and 'relu' activation function
-*Dense layer with 25 units (one for each class) and 'softmax' activation function
-*Dropout layer with a rate of 0.25
+* Conv2D layer with 32 filters of size 3x3, input shape of (28,28,1), and 'relu' activation function
+* MaxPooling2D layer with a pool size of 2x2
+* Dropout layer with a rate of 0.25
+* Conv2D layer with 64 filters of size 3x3 and 'relu' activation function
+* MaxPooling2D layer with a pool size of 2x2
+* Dropout layer with a rate of 0.25
+* Conv2D layer with 128 filters of size 3x3 and 'relu' activation function
+* MaxPooling2D layer with a pool size of 2x2
+* Dropout layer with a rate of 0.25
+* Flatten layer to convert the 2D feature maps into a 1D vector
+* Dense layer with 512 units and 'relu' activation function
+* Dense layer with 25 units (one for each class) and 'softmax' activation function
+* Dropout layer with a rate of 0.25
 The model was compiled using the 'categorical_crossentropy' loss function, 'adam' optimizer, and 'accuracy' metric.
 
 # Training and Evaluation
